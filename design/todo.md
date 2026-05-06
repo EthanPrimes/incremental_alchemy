@@ -1,3 +1,5 @@
-* Figure out what an athanor is
+* Setup and write out the basic story and lore
+
 * Determine early game upgrades
-* Figure out how to make a mining minigame with a timer
+* Figure out how to add logs into the game
+* Put each section on a different part of the page
