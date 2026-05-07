@@ -1,13 +1,16 @@
 const state = {
+    time: 0,
+    position: "cave-mouth",
     resources: {
+        cinnabar: 0,
         mercury: 0,
         sulfur: 0,
-        salt: 0
+        salt: 0,
     }
 };
 
 function tick() {
-    // Nothing yet
+    state.time += 1
 }
 
 function applyAction(action) {

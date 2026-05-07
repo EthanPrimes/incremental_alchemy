@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+aside {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+}

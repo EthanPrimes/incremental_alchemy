@@ -5,7 +5,7 @@ function render() {
 
 function renderResources() {
     const panel = document.getElementById("panel-resources");
-    panel.innerHTML = "";
+    panel.innerHTML = "Resources";
 
     RESOURCES.forEach(function(resource) {
         const amount = state.resources[resource.id];
