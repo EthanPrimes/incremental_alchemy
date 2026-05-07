@@ -11,3 +11,5 @@ const ACTIONS = [
     { id: "collect-sulfur", label: "Collect Sulfur", description: "Gather pure sulfur", cost: {}, effect: {sulfur: 1}},
     { id: "collect-salt", label: "Collect Salt", description: "Gather pure salt", cost: {}, effect: {salt: 1}},
 ];
+
+const LORE = ["The sunlight burns your eyes"];

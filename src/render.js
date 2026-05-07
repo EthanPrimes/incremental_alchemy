@@ -1,6 +1,7 @@
 function render() {
     renderResources();
     renderActions();
+    renderLore();
 }
 
 function renderResources() {
@@ -28,5 +29,17 @@ function renderActions() {
             applyAction(action)
         });
         panel.appendChild(button);
+    });
+}
+
+function renderLore() {
+    const panel = document.getElementById("panel-lore");
+    panel.innerHTML = "";
+
+    LORE.forEach(function(lore) {
+        const entry = document.createElement("div");
+        entry.className = "lore-entry"
+        entry.textContent = lore
+        panel.appendChild(entry)
     });
 }
